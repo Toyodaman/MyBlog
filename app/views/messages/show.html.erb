@@ -15,6 +15,10 @@
  <%= @message.name %>
 </p>
 
+<p>
+ <strong>Level:</strong>
+ <%= @message.level %>
+</p>
 
 <%= link_to 'Edit', edit_message_path(@message) %> |
 <%= link_to 'Back', messages_path %>
