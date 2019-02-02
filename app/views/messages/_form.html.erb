@@ -11,27 +11,27 @@
     </div>
   <% end %>
 
-  <div class="field">
-    <%= form.label :title %>
-    <%= form.text_field :title %>
-  </div>
+ <div class="field">
+  <%= f.label :title %>
+  <%= f.text_field :title %>
+ </div>
 
-  <div class="field">
-    <%= form.label :message %>
-    <%= form.text_area :message %>
-  </div>
+ <div class="field">
+  <%= f.label :message %>
+  <%= f.text_area :message %>
+ </div>
   
   <div class="field">
-    <%= form.label :name %>
-    <%= form.text_field :name %>
+    <%= f.label :name %>
+    <%= f.text_field :name %>
    </div>
    
    <div class="field">
-    <%= form.label :level %>
-    <%= form.text_field :level %>
+    <%= f.label :level %>
+    <%= f.text_field :level %>
    </div>
    
   <div class="actions">
-    <%= form.submit %>
+    <%= f.submit %>
   </div>
 <% end %>
